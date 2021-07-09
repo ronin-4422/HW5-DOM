@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
 </head>
-<body>
-    
+<body class="bg-color">
+    <div class="container">
+        <form class="form">
+            <input
+            id="username"
+            class="input" 
+            type="text"
+            placeholder="username"
+            >
+            <input
+            id="password"
+            class="input" 
+            type="password"
+            placeholder="password"
+            >
+            <input onclick="clientInfo();storage()" id="button" class="input button bg-color" type="submit" value="Login">
+            <div id="result"></div>
+            <span>Not registered?<a class="create__account" href="#">Create an account</a></span>
+        </form> 
+    </div>
 </body>
 </html>

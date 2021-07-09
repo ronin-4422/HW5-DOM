@@ -1,0 +1,38 @@
+.bg-color {
+background-color: greenyellow;
+}
+
+.container {
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 300px;
+    height: 220px; */
+    padding: 70px 50px 70px 50px;
+    background-color: #fff;
+}
+
+.input {
+    padding: 10px 5px 10px 7px;
+    margin-bottom: 10px;
+}
+
+.button {
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    background-color: green;
+}
+
+.create__account {
+    text-decoration: none;
+    color: green;
+}
